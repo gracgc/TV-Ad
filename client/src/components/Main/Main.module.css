@@ -1,0 +1,76 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+.itemMenu {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.itemButton {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.sizeMenu {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.sizeChoose {
+    text-align: center;
+    background: lightcyan;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.chosenSize {
+    text-align: center;
+    background: lightcyan;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-bottom: solid 3px blueviolet;
+}
+
+.sizeChoose:hover {
+    border-bottom: solid 3px blueviolet;
+}
+
+.positionMenu {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.positionChoose {
+    text-align: center;
+    background: lightcyan;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.chosenPosition {
+    text-align: center;
+    background: lightcyan;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-bottom: solid 3px blueviolet;
+}
+
+.positionChoose:hover {
+    border-bottom: solid 3px blueviolet;
+}
